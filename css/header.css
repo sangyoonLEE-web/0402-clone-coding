@@ -1,0 +1,36 @@
+@import url("reset.css");
+
+.header {
+  background-color: orange;
+  display: flex;
+align-items: center;
+  padding: 24px 32px;
+}
+.inner{
+  width: 1216px;
+  margin: auto;
+  background-color: rgb(175, 175, 233);
+}
+.header-inner{
+  display: flex;
+  justify-content: space-between;
+}
+/* 헤더 메뉴 왼쪽 */
+
+/* 메뉴로고 사이즈 */
+.inner-left{
+  display: flex;
+  align-items: center;
+}
+.inner-left li a {
+  display: flex;
+  align-items: center;
+}
+.inner-left .menu-Logo{
+  width: 30px;
+  
+}
+/* 헤더 메뉴 오른쪽 */
+.inner-right{
+  display: flex;
+}
