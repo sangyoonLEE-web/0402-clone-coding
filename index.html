@@ -4,7 +4,9 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>마케팅 인사이트의 시작,오픈에이디에스</title>
+    <!-- css 구조화 -->
     <link rel="stylesheet" href="css/header.css" />
+    <link rel="stylesheet" href="css/marketing.css" />
     <!-- 파비콘 -->
     <link rel="icon" type="image/png" href="img/Favicon.png" sizes="96x96" />
     <link rel="icon" type="image/svg+xml" href="img/Favicon.png" />
@@ -15,13 +17,25 @@
       href="img/apple-touch-icon.png"
     />
     <link rel="manifest" href="img/site.webmanifest" />
+    <!-- swiper css -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css"
+    />
+
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
+
+    <!-- js연결 -->
+    <script src="js/visual_sw.js" defer></script>
   </head>
   <body>
     <div class="wrap">
       <header class="header">
-        <a href="#"><img src="img/openads-logo-web.svg" alt="로고" /></a>
-
         <div class="header-inner inner">
+          <a href="#" class="main-Logo"
+            ><img src="img/mainopenads-logo-web.svg" alt="로고"
+          /></a>
           <ul class="inner-left">
             <li>
               <a href="#"
@@ -35,12 +49,11 @@
                   src="img/menu-ostory.png"
                   alt="메뉴로고"
                 />
-                /></a
-              >
+              </a>
             </li>
-            <li><a href="#">최신</a></li>
-            <li><a href="#">인기</a></li>
-            <li><a href="#">인사이터</a></li>
+            <li><a href="#">최신 · </a></li>
+            <li><a href="#">인기 ·</a></li>
+            <li><a href="#">인사이터 ·</a></li>
             <li>
               <a href="#"
                 >광고상품정보<img
@@ -62,9 +75,126 @@
             <a href="#"
               ><img src="img/ico-search-default-32px (1).svg" alt=""
             /></a>
+            <a href="#">로그인</a>
+            <a href="#">인사이터 신청</a>
           </div>
         </div>
       </header>
+
+      <!-- 스와이프 영역 -->
+      <div class="visual inner">
+        <div class="swiper visual-sw">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <img src="img/visual1.png" alt="1" />
+            </div>
+            <div class="swiper-slide">
+              <img src="img/visual2.jpg" alt="1" />
+            </div>
+            <div class="swiper-slide">
+              <img src="img/visual3.jpg" alt="1" />
+            </div>
+            <div class="swiper-slide">
+              <img src="img/visual4.jpg" alt="1" />
+            </div>
+          </div>
+          <div class="swiper-button-next"></div>
+          <div class="swiper-button-prev"></div>
+          <div class="swiper-pagination"></div>
+        </div>
+      </div>
+
+      <!-- 마케팅 영역-->
+      <section class="maketing">
+        <div class="marketing-inner inner">
+          <!-- 마케팅 top -->
+          <div class="marketing-top">
+            <h2>마케팅의 내일을 설계하는 오늘의 인사이트</h2>
+            <a href="#">더보기 <img src="img/iconright.svg" alt="" /></a>
+          </div>
+
+          <!-- 마케팅 bottom -->
+          <div class="marketing-bottom">
+            <ul>
+              <li>
+                <a href="#">
+                  <div class="title">
+                    <p>마케팅 사례</p>
+                    <h2>
+                      [뉴스콕] 990원 소주가 동네 수퍼에만 풀린 이유 (4월)...
+                    </h2>
+                  </div>
+                </a>
+
+                <a href="#" class="bookmark">
+                  <p>
+                    소마코
+                    <img src="img/icon-bookmark.svg" alt="북마크" />
+                  </p>
+                </a>
+                <div class="banner-img">
+                  <a href="#"><img src="img/marketing1.png" alt="가이드" /></a>
+                </div>
+              </li>
+              <li>
+                <a href="#">
+                  <div class="title">
+                    <p>마케팅 전략</p>
+                    <h2>올영세일 2주전, 뷰티 마케터가 놓치는 브랜드 전략</h2>
+                  </div>
+                </a>
+
+                <a href="#" class="bookmark">
+                  <p>
+                    데이터 OOH 애드타입
+                    <img src="img/icon-bookmark.svg" alt="북마크" />
+                  </p>
+                </a>
+                <div class="banner-img">
+                  <a href="#"><img src="img/marketing2.jpg" alt="가이드" /></a>
+                </div>
+              </li>
+              <li>
+                <a href="#">
+                  <div class="title">
+                    <p>구글/네이버/카카오</p>
+                    <h2>196.15% 증가와 24.75% 감소사이, 병원 구글광고를...</h2>
+                  </div>
+                </a>
+
+                <a href="#" class="bookmark">
+                  <p>
+                    바름
+
+                    <img src="img/icon-bookmark.svg" alt="북마크" />
+                  </p>
+                </a>
+                <div class="banner-img">
+                  <a href="#"><img src="img/marketing3.png" alt="가이드" /></a>
+                </div>
+              </li>
+              <li>
+                <a href="#">
+                  <div class="title">
+                    <p>미디어 트랜드</p>
+                    <h2>숏폼으로 구매 전환 2,700% 달성하는 방법?</h2>
+                  </div>
+                </a>
+
+                <a href="#" class="bookmark">
+                  <p>
+                    알파앱스
+                    <img src="img/icon-bookmark.svg" alt="북마크" />
+                  </p>
+                </a>
+                <div class="banner-img">
+                  <a href="#"><img src="img/marketing4.jpg" alt="가이드" /></a>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
     </div>
   </body>
 </html>
