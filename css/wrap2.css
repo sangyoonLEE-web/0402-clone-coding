@@ -1,0 +1,62 @@
+@import url("reset.css");
+
+.wrap2-inner .title {
+  font-weight: bold;
+  font-size: 30px;
+  padding-top: 100px;
+  border-bottom: 1px solid #333;
+  margin-bottom: 50px;
+}
+
+.wrap2-inner .container {
+  display: flex;
+  gap: 70px;
+  width: 100%;
+}
+.wrap2-left {
+  width: 20%;
+}
+.wrap2-right {
+  width: 80%;
+}
+
+.wrap2-left p {
+font-size: 20px;
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #ddd;
+
+}
+
+/* 우측 */
+
+.wrap2-right ul{
+    display: flex;
+    gap: 20px;
+}
+.wrap2-right h2{
+    margin-bottom: 20px;
+}
+
+.wrap2-right li{
+    width: calc(100% / 3);
+}
+
+.wrap2-bookmark{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.wrap2-right p{
+    margin-bottom: 15px;
+}
+
+.wrap2-right .banner-img{
+    display: block;
+    overflow: hidden;
+    width: 100%;
+    
+}
