@@ -1,0 +1,81 @@
+@import url("reset.css");
+
+.footer .inner {
+  /* background-color: antiquewhite; */
+}
+
+.footer-group {
+  padding: 100px 0px;
+}
+
+.footer-banner {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 40px;
+  align-items: center;
+}
+.footer-banner .right button {
+  align-items: center;
+  padding: 10px;
+}
+.footer-banner .left h2 {
+  margin-bottom: 10px;
+}
+
+.footer-banner .right {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+/* footer group */
+
+.footer-group .logo {
+  font-size: 24px;
+}
+
+.footer-group .g1-flex {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.footer-group .g1-flex .submenu {
+  font-weight: bold;
+}
+
+.footer-group .g2-flex {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.footer-group .g3-flex {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.footer-group .g3-flex .gap {
+  display: flex;
+  gap: 16px;
+}
+
+.footer-group .g4-flex {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.footer-group .g4-flex .gap {
+  display: flex;
+  gap: 16px;
+}
+
+.g2-flex .domain1 {
+  margin-bottom: 5px;
+}
+.g2-flex .domain2 {
+  margin-bottom: 5px;
+}

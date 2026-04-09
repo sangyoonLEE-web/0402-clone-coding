@@ -1,0 +1,68 @@
+@import url("reset.css");
+
+.wrap3-inner .inner {
+  width: 100%;
+}
+
+.wrap3-inner .title {
+  padding: 100px 0px 15px 0px;
+  border-bottom: 1px solid #333;
+}
+
+.wrap3-inner .container {
+  font-size: 19px;
+  display: flex;
+  justify-content: space-between;
+  gap: 24px;
+  margin-top: 20px;
+  /* width: calc((100% - 288px) / 13); */
+}
+.container .active{
+    font-weight: bold;
+    border-bottom: 1px solid #333;
+}
+
+.row {
+  display: flex;
+  gap: 30px;
+  border-bottom: 1px solid #ddd;
+  padding: 50px 0px;
+}
+
+.row .wrap3-bookmark {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 43px;
+}
+
+.row .wrap3-bookmark img {
+  width: 24px;
+}
+.row-left {
+  width: 55%;
+  /* background-color: red; */
+}
+
+.row-left h2{
+    font-size: 30px;
+}
+
+
+.row-right {
+  width: 45%;
+}
+
+
+.row-right img {
+  display: block;
+  width: 100%;
+}
+.wrap3-banner {
+  display: flex;
+  gap: 100px;
+  padding: 30px 0;
+}
+
+.wrap3-banner li{
+    width: 50%;
+}
